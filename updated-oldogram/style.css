@@ -1,0 +1,107 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: #212427;
+ 
+ 
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: 1px solid #00333333;
+  padding: 0.5em;
+}
+.logo {
+  width: 40%;
+}
+
+.img-div {
+  justify-content: flex-end;
+}
+.profile-img {
+  max-width: 20%;
+  border-radius: 50%;
+  background-color: antiquewhite;
+}
+.container {
+  width: 35%;
+  margin: 5em auto;
+  max-width: 400px;
+  box-shadow: 0 5px 30px 3px rgba(0, 0, 0, 0.2);
+  padding-bottom: 1em;
+
+  border-radius: 7px;
+ 
+ 
+}
+.row {
+  display: flex;
+}
+.col {
+  flex-direction: column;
+  display:flex;}
+ 
+.artist-info{
+padding:.5em;
+font-size: .5rem;
+
+
+
+
+}
+.artist-info {
+   justify-content: flex-start;
+   gap:1em;
+   align-items: center;
+
+
+}
+.artist-img-div{
+max-width:10%;
+
+}
+.artist-img{
+    max-width:100%;
+    border-radius: 50%;
+    margin-left:.5em;
+   
+
+
+}
+.artist-name{
+font-weight:bold;
+}
+.painting{
+    width:100%;
+}
+.heart-other-icons{
+    margin: .7em  0.5em .5em .5em;
+    gap:0.5em;
+}
+
+.icons{
+    width:8%;
+}
+.icons:hover,
+.icons:focus{
+  opacity:50%;
+}
+.comments, .number-of-likes{
+    font-size:.6rem;
+    
+    margin-left:1em;
+    margin-top:.5rem;
+}
+.comments span, .number-of-likes{
+    margin-right: .3em;
+    font-weight: bold;
+}
